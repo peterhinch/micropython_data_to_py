@@ -6,6 +6,10 @@ The utility runs on a PC and converts an arbitrary binary file into a Python
 source file. The generated Python file may be frozen as bytecode. Read-only
 data may thus be stored in Flash and accessed with little RAM use.
 
+Please see also [freezeFS](https://github.com/bixb922/freezeFS) - a utility by
+@bixb922 which allows a complete directory tree to be frozen and mounted as a
+filesystem.
+
 ## Arguments
 
 The utility requires two arguments, the first being the path to a file for
